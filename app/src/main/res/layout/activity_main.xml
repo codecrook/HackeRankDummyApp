@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/bodyPadding"
+    android:paddingRight="@dimen/bodyPadding"
+    android:paddingTop="@dimen/bodyPadding"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logoHeight"
+        android:contentDescription="@string/logoDescription"
+        android:src="@drawable/hackerrank" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/cardDimension"
+        android:layout_marginTop="@dimen/cardDimension"
+        android:layout_weight="1"
+        android:elevation="@dimen/cardElevation"
+        app:cardCornerRadius="@dimen/cardDimension">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/groupPicMargin"
+            android:layout_marginRight="@dimen/groupPicMargin"
+            android:contentDescription="@string/photoDescription"
+            android:scaleType="fitCenter"
+            android:src="@drawable/hackerrank_team" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingBottom="@dimen/titlePaddingLR"
+        android:paddingLeft="@dimen/titlePaddingLR"
+        android:paddingTop="@dimen/titlePaddingTop"
+        android:text="@string/companyName"
+        android:textSize="@dimen/titleTextSize"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/detailContainerPadding">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_directions_black_24dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="map"
+            android:paddingLeft="@dimen/detailTextPadding"
+            android:text="@string/companyAddress"
+            android:textSize="@dimen/detailTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/detailContainerPadding"
+        android:paddingTop="@dimen/detailTextPadding">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_phone_black_24dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="phone"
+            android:paddingLeft="@dimen/detailTextPadding"
+            android:text="@string/companyPhoneNo"
+            android:textSize="@dimen/detailTextSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/detailContainerPadding"
+        android:paddingLeft="@dimen/detailContainerPadding"
+        android:paddingTop="@dimen/detailTextPadding">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_language_black_24dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="web"
+            android:paddingLeft="@dimen/detailTextPadding"
+            android:text="@string/companyWebsite"
+            android:textSize="@dimen/detailTextSize" />
+    </LinearLayout>
+
+</LinearLayout>

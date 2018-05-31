@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HackeRankDummyApp</string>
+
+    <string name="logoDescription">Logo of HackerRank Inc</string>
+    <string name="photoDescription">Team photo of HackerRank</string>
+
+    <string name="companyName">HackerRank</string>
+    <string name="companyAddress">102, Eastland Citadel, Hosur Road, Kaveri Layout, Suddagunte Palya, Bengaluru, Karnataka 560095</string>
+    <string name="companyPhoneNo">0888081222</string>
+    <string name="companyWebsite">www.hackerrank.com</string>
+</resources>

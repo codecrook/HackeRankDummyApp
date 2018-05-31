@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bodyPadding">10dp</dimen>
+
+    <dimen name="logoHeight">100dp</dimen>
+    <dimen name="cardElevation">3dp</dimen>
+    <dimen name="cardDimension">5dp</dimen>
+
+    <dimen name="groupPicMargin">10dp</dimen>
+
+    <dimen name="titlePaddingTop">28dp</dimen>
+    <dimen name="titlePaddingLR">12dp</dimen>
+    <dimen name="titleTextSize">28sp</dimen>
+
+    <dimen name="detailContainerPadding">12dp</dimen>
+    <dimen name="detailTextPadding">5dp</dimen>
+    <dimen name="detailTextSize">17sp</dimen>
+</resources>
